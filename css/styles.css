@@ -3,7 +3,6 @@ body{
     color:#61122f;
     background-color: #61122f;
     font-family:'Oxygen', sans-serif;
-
 } 
 #logo-img{
     background: url("../images/restaurant-logo_large.png") no-repeat;
@@ -36,13 +35,11 @@ body{
     text-decoration: none;
     
 }
-
 .navbar-brand p {
     color:#000;
     text-transform: uppercase;
     font-size : .7em;
     margin-top: 15px;
- 
 }
 
 .navbar-brand p span {
@@ -113,10 +110,12 @@ nav-LIST A span{
     background-position: center;
    
 }
+
 #specials-tile {
     background: url('../images/specials-tile.jpg') no-repeat;
     background-position: center;
 }
+
 #menu-tile span, #specials-tile span, #map-tile span {
     position: absolute;
     bottom: 0;
@@ -128,10 +127,10 @@ nav-LIST A span{
     background-color: #000;
     color: #fff;
     opacity: .8;
-
 }
+
 /*large*/
-@media (min-width: 1200){ 
+@media (min-width: 1200px){ 
     .container .jumbotron{
     background: url('../images/jumbotron_1200.jpg') no-repeat;
     height: 558px;
@@ -143,22 +142,23 @@ nav-LIST A span{
 
 /* medium*/
 @media (min-width: 992px) and (max-width:1199px) {
-
     .container .jumbotron{
-        background: url('../images/restaurant-logo_medium.png') no-repeat;
+        background: url("../images/jumbotron_992.jpg") no-repeat;
         height: 675px;
         box-shadow: 0 0 50px #3F0C1F;
         border: 2px solid #3F0C1F;
 }
+}
+
  /*small devices*/
-@media (min-width: 768x) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991px){
    .container .jumbotron{
         background: url('../images/jumbotron_768.jpg') no-repeat;
         height: 432px;
         box-shadow: 0 0 50px #3F0C1F;
         border: 2px solid #3F0C1F;
     }
-
+}
 
 /*very  small devices*/
 @media (max-width: 767px){
@@ -214,6 +214,5 @@ nav-LIST A span{
         width: 280px;
         margin: 0 auto
     }
-}
 }
 }
